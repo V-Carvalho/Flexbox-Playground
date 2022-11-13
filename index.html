@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox Playground</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <div class="scafold">
+    <div class="sideA"> <!--sideA-->
+      <div class="box0SideA">        
+        <div class="box0SideA-item">
+          <p>BOX 1 - TAMANHO</p>
+          <div class="box0SideA-items">
+            <button onclick="resizeBox('.box1SideA', 1)">1</button>
+            <button onclick="resizeBox('.box1SideA', 2)">2</button>
+            <button onclick="resizeBox('.box1SideA', 3)">3</button>
+          </div>          
+        </div>
+        <div class="box0SideA-item">
+          <p>BOX 2 - TAMANHO</p>
+          <div class="box0SideA-items">
+            <button onclick="resizeBox('.box2SideA', 1)">1</button>
+            <button onclick="resizeBox('.box2SideA', 2)">2</button>
+            <button onclick="resizeBox('.box2SideA', 3)">3</button>
+          </div>          
+        </div>
+        <div class="box0SideA-item">
+          <p>BOX 3 - TAMANHO</p>
+          <div class="box0SideA-items">
+            <button onclick="resizeBox('.box3SideA', 1)">1</button>
+            <button onclick="resizeBox('.box3SideA', 2)">2</button>
+            <button onclick="resizeBox('.box3SideA', 3)">3</button>
+          </div>          
+        </div>    
+      </div>
+      <div class="box1SideA">
+        <p>Box 1 - AZUL</p>
+      </div>
+      <div class="box2SideA">
+          <p>Box 2 - AMARELO</p>
+      </div>
+      <div class="box3SideA">
+          <p>Box 3 - VERMELHO</p>
+      </div>
+    </div> <!--sideA-->
+
+    <div class="sideB"> <!--sideB-->
+      <div class="box0SideB">        
+        <div class="box0SideB-item">
+          <p>BOX 1 - TAMANHO</p>
+          <div class="box0SideB-items">
+            <button onclick="resizeBox('.box1SideB', 1)">1</button>
+            <button onclick="resizeBox('.box1SideB', 2)">2</button>
+            <button onclick="resizeBox('.box1SideB', 3)">3</button>
+          </div>          
+        </div>
+        <div class="box0SideB-item">
+          <p>BOX 2 - TAMANHO</p>
+          <div class="box0SideB-items">
+            <button onclick="resizeBox('.box2SideB', 1)">1</button>
+            <button onclick="resizeBox('.box2SideB', 2)">2</button>
+            <button onclick="resizeBox('.box2SideB', 3)">3</button>
+          </div>          
+        </div>
+        <div class="box0SideB-item">
+          <p>BOX 3 - TAMANHO</p>
+          <div class="box0SideB-items">
+            <button onclick="resizeBox('.box3SideB', 1)">1</button>
+            <button onclick="resizeBox('.box3SideB', 2)">2</button>
+            <button onclick="resizeBox('.box3SideB', 3)">3</button>
+          </div>          
+        </div>    
+      </div>
+
+      <div class="allBox">
+        <div class="box1SideB">
+          <p>Box 1 - AZUL</p>
+        </div>
+        <div class="box2SideB">
+            <p>Box 2 - AMARELO</p>
+        </div>
+        <div class="box3SideB">
+            <p>Box 3 - VERMELHO</p>
+        </div>        
+      </div>
+    </div> <!--sideB-->
+  </div>
+    
+  <script src="js/script.js"></script>
+</body>
+</html>
